@@ -22,7 +22,7 @@
 
 2. Build the Go program:
     ```bash
-    go build check_protocol.go
+    go build protochecker.go
     ```
 
 ## Usage
@@ -30,4 +30,4 @@
 Run the program with the input file containing the list of domains and an optional output file name:
 
 ```bash
-./check_protocol <input_file> [output_file]
+./protochecker <input_file> [output_file]
